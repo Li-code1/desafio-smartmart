@@ -199,6 +199,12 @@ Após rodar os dois comandos acima, siga este roteiro para validar as funcionali
 * **Erro de Porta (10048):** Se o Python não iniciar, use `taskkill /F /IM python.exe` no Windows para liberar a porta 9000.
 * **Conexão Recusada:** Verifique se o backend está rodando antes de tentar usar o formulário no frontend.
 
+* ## 📺 Demonstração
+
+Confira abaixo o funcionamento do sistema (Inserção, Edição, Exclusão e Filtros):
+
+https://drive.google.com/file/d/1VvF7CXI-1mqGsSfBmF-_PemxfPpY8qr5/view?usp=drivesdk
+
 
 Desenvolvido por Liliane Lima - Janeiro de 2026.
 ---
