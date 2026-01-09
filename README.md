@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🛒 SmartMart Pro - Gestão de Vendas Full Stack
 
 O **SmartMart Pro** é uma plataforma robusta para monitoramento de vendas e análise de lucros. O sistema transforma dados brutos de arquivos CSV em inteligência de negócio através de dashboards interativos, permitindo o controle total sobre o ciclo de vida dos dados (CRUD).
@@ -183,4 +182,4 @@ Para importar dados em massa, utilize um arquivo `.csv` com a seguinte estrutura
 **Desenvolvido por [Liliane Lima] - 2026**
 
 ---
->>>>>>> 84f3cda18248796d34af7c2df72de780b9926206
+
