@@ -14,7 +14,6 @@ O **SmartMart Pro** é uma solução Full Stack desenvolvida para gestão inteli
 
 ## 🚀 Funcionalidades Principais
 
-<<<<<<< HEAD
 * **Gestão de Dados (CRUD):** Interface completa para adicionar, editar e excluir registros de vendas diretamente na aplicação.
 * **Sistema de Filtros:** Busca inteligente por nome de produto e filtragem dinâmica por categoria.
 * **Importação Massiva:** Upload de arquivos CSV para alimentação rápida da base de dados.
@@ -35,7 +34,7 @@ O **SmartMart Pro** é uma solução Full Stack desenvolvida para gestão inteli
 
 ### **Frontend**
 
-<<<<<<< HEAD
+
 * **React + Vite + TypeScript**
 * **Tailwind CSS** (Design responsivo e moderno)
 * **Recharts** (Visualização de dados complexa)
