@@ -1,114 +1,44 @@
-# 🛒 SmartMart Dashboard
+# 🛒 SmartMart Pro - Dashboard de Vendas
 
-O **SmartMart** é um dashboard inteligente de gestão de vendas que permite o acompanhamento em tempo real de métricas financeiras. O sistema utiliza um backend em **Python** para gerenciar um banco de dados em **CSV** e um frontend moderno em **React** para visualização de dados.
+O **SmartMart Pro** é uma solução Full Stack desenvolvida para gestão inteligente de inventário e análise de vendas. O sistema permite o controle total de produtos por categorias, visualização de lucros e importação massiva de dados via CSV.
 
+## 🚀 Funcionalidades Principais
 
+* **Dashboard Dinâmico:** Gráficos interativos que comparam **Quantidade Vendida** vs **Lucro Total** por data.
+* **Gestão de Categorias:** Organização automática de produtos e filtros rápidos por categoria.
+* **Importação de Dados:** Processamento de arquivos CSV para inserção em massa de registros.
+* **CRUD Completo:** Possibilidade de adicionar, editar, visualizar e excluir vendas e produtos em tempo real.
+* **Persistência em CSV:** Armazenamento estruturado garantindo que os dados não sejam perdidos ao reiniciar o servidor.
 
-## ✨ Funcionalidades
-
--   **Gestão de Vendas (CRUD):** Inserção, listagem, edição e exclusão de vendas diretamente na interface.
--   **Gráfico Inteligente:** Visualização de faturamento agrupado automaticamente por data.
--   **Filtros em Tempo Real:** Busca dinâmica no histórico por datas no formato brasileiro (DD/MM/AAAA).
--   **KPIs Dinâmicos:** Cards com faturamento total e volume de itens vendidos atualizados instantaneamente.
--   **Interface Responsiva:** Design limpo e moderno utilizando Tailwind CSS e Lucide Icons.
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
-### Backend
--   **Python 3.x**
--   **FastAPI:** Framework web de alta performance.
--   **Uvicorn:** Servidor ASGI para rodar a API.
--   **CSV:** Armazenamento persistente de dados.
+### **Backend**
 
-### Frontend
--   **React + TypeScript**
--   **Tailwind CSS:** Estilização baseada em utilitários.
--   **Recharts:** Biblioteca para gráficos interativos.
--   **Lucide React:** Pacote de ícones profissionais.
--   **Axios:** Cliente HTTP para comunicação com a API.
+* **Python 3.10+** com **FastAPI** (Alta performance e tipagem).
+* **Uvicorn** (Servidor ASGI).
+* **Python-Multipart** (Para suporte a upload de arquivos).
+* **CSV Module** (Manipulação de banco de dados em texto).
 
-## 🚀 Como Executar o Projeto
+### **Frontend**
 
-### 1. Clonar o Repositório
-```bash
-git clone [https://github.com/Li-code1/desafio-smartmart.git]
-
-
-```
-### 2. Configurar o Backend
-
-```bash
-cd backend
-pip install fastapi uvicorn pydantic
-python main.py
-
-```
-
-*O servidor iniciará em `http://127.0.0.1:9000*`
-
-### 3. Configurar o Frontend
-
-Em um novo terminal:
-
-```bash
-cd frontend
-npm install
-npm run dev
-
-```
-
-*O dashboard estará disponível em `http://localhost:5173*`
-
-## 📁 Estrutura de Pastas
-
-```text
-smartmart/
-├── backend/
-│   ├── main.py        # API FastAPI e lógica de manipulação do CSV
-│   └── sales.csv      # Banco de dados em formato de texto
-└── frontend/
-    ├── src/
-    │   ├── App.tsx    # Interface e lógica principal em React
-    │   └── main.tsx
-    └── package.json
-
-```
-
-## 📊 Formato dos Dados (CSV)
-
-O sistema gerencia automaticamente o arquivo `sales.csv` com a seguinte estrutura:
-`id, product_id, quantity, total_price, date`
+* **React + Vite + TypeScript**.
+* **Tailwind CSS** (Estilização moderna e responsiva).
+* **Recharts** (Gráficos complexos e interativos).
+* **Lucide React** (Pacote de ícones profissionais).
+* **Axios** (Comunicação com API).
 
 ---
 
-## 🚀 Guia de Instalação e Execução
+## 📦 Como Instalar e Rodar
 
-Siga os passos abaixo para configurar o ambiente e rodar o SmartMart localmente.
+### **1. Backend**
 
-### 1. Pré-requisitos
-
-Antes de começar, você precisará ter instalado em sua máquina:
-
-* **Python 3.8+**
-* **Node.js** (Versão 18 ou superior)
-* **Gerenciador de pacotes npm** (instalado junto com o Node)
-
----
-
-### 2. Configuração do Backend (Servidor Python)
-
-O backend gerencia o processamento de dados e o armazenamento no arquivo CSV.
-
-1. Abra o seu terminal e navegue até a pasta do backend:
+1. Acesse a pasta do servidor: `cd backend`
+2. Instale as dependências:
 ```bash
-cd backend
-
-```
-
-
-2. Instale as bibliotecas necessárias:
-```bash
-pip install fastapi uvicorn pydantic
+pip install fastapi uvicorn python-multipart
 
 ```
 
@@ -120,85 +50,51 @@ python main.py
 ```
 
 
-*O terminal deve exibir: `INFO: Uvicorn running on http://127.0.0.1:9000*`
+*O backend estará rodando em `http://127.0.0.1:9000*`
 
----
+### **2. Frontend**
 
-### 3. Configuração do Frontend (Interface React)
-
-O frontend fornece a interface visual e os gráficos do dashboard.
-
-1. Abra um **segundo terminal** (mantenha o primeiro rodando o Python) e navegue até a pasta do frontend:
-```bash
-cd frontend
-
-```
-
-
-2. Instale as dependências do projeto:
+1. Em um novo terminal, acesse a pasta da interface: `cd frontend`
+2. Instale os pacotes:
 ```bash
 npm install
 
 ```
 
 
-3. Instale as bibliotecas de ícones e gráficos (caso ainda não estejam no package.json):
-```bash
-npm install lucide-react recharts axios
-
-```
-
-
-4. Inicie a aplicação:
+3. Rode a aplicação:
 ```bash
 npm run dev
 
 ```
 
 
-*O terminal informará um endereço como `http://localhost:5173`. Abra este link no seu navegador.*
+*Acesse `http://localhost:5173` no seu navegador.*
 
 ---
 
-## 🧪 Como Testar o Projeto
+## 📂 Guia de Importação de CSV
 
-Após rodar os dois comandos acima, siga este roteiro para validar as funcionalidades:
+Para importar dados em massa, utilize um arquivo `.csv` com a seguinte estrutura de colunas:
 
-1. **Teste de Inserção:**
-* No formulário superior, selecione uma data, digite uma quantidade e um valor (ex: R$ 100,00).
-* Clique em **"GUARDAR NO CSV"**.
-* Verifique se o formulário foi limpo automaticamente e se os dados apareceram no Histórico e no Gráfico.
+| product_id | category | quantity | total_price | date |
+| --- | --- | --- | --- | --- |
+| PROD123 | Eletrônicos | 5 | 1200.00 | 2026-01-09 |
+| PROD456 | Casa | 2 | 150.50 | 2026-01-10 |
 
-
-2. **Teste de Agrupamento:**
-* Adicione uma segunda venda na **mesma data** que a anterior.
-* Observe que, no gráfico, as vendas foram somadas em uma única barra, enquanto no histórico elas aparecem como itens individuais.
-
-
-3. **Teste de Edição:**
-* Na tabela de Histórico, clique no ícone do **Lápis Laranja** 📝 de uma venda.
-* Os dados devem subir para o formulário. Altere o valor e clique em **"ATUALIZAR"**.
-* Confirme se os KPIs (Métricas) e o Gráfico foram recalculados.
-
-
-4. **Teste de Filtro:**
-* Utilize a barra de busca no topo. Digite parte de uma data (ex: "09/01" ou "2025-01").
-* A tabela de histórico deve filtrar os resultados instantaneamente.
-
-
-5. **Teste de Exclusão:**
-* Clique no ícone da **Lixeira Vermelha** 🗑️.
-* Confirme a mensagem de alerta. A venda deve desaparecer e os valores totais do Dashboard devem diminuir.
-
-
+**Nota:** A data deve seguir o formato `AAAA-MM-DD`. O sistema converterá automaticamente para o padrão brasileiro (`DD/MM/AAAA`) na interface.
 
 ---
 
-### 💡 Resolução de Problemas
+## 🧪 Roteiro de Testes Recomendado
 
-* **Erro de Porta (10048):** Se o Python não iniciar, use `taskkill /F /IM python.exe` no Windows para liberar a porta 9000.
-* **Conexão Recusada:** Verifique se o backend está rodando antes de tentar usar o formulário no frontend.
+1. **Inserção Manual:** Adicione um produto preenchendo o formulário e veja o gráfico atualizar.
+2. **Edição:** Clique no ícone de lápis laranja em um item do histórico, mude o valor e salve.
+3. **Filtro:** Utilize o seletor de "Categorias" para filtrar apenas produtos de um tipo específico.
+4. **Upload:** Use o botão "Importar CSV" com o modelo de exemplo acima para ver o processamento em massa.
 
+---
 
-Desenvolvido por Liliane Lima - Janeiro de 2026.
+**Desenvolvido por [Liliane Lima] - 2026**
+
 ---
