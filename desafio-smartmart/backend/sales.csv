@@ -1,8 +1,9 @@
-id,product_id,quantity,total_price,date
-1,1,12,15599.88,2025-01-15
-2,1,8,10399.92,2025-03-22
-3,1,15,19499.85,2025-07-05
-4,1,10,12999.90,2025-10-18
+id,product_id,category,quantity,total_price,date
+1,Produto Teste,Eletrônicos,10,1500.00,2026-01-09
+2,Produto Teste,Eletrônicos,12,15599.88,2025-01-15
+3,Produto Teste,Eletrônicos,8,10399.92,2025-03-22
+4,Produto Teste,Eletrônicos,15,19499.85,2025-07-05
+5,Produto Teste,Eletrônicos,10,12999.90,2025-10-18
 5,2,6,8999.94,2025-02-12
 6,2,11,16499.89,2025-05-30
 7,2,9,13499.91,2025-09-14
@@ -64,3 +65,6 @@ id,product_id,quantity,total_price,date
 63,1,1,1000.0,2026-01-09
 64,1,1,500.0,2026-01-09
 65,1,1,1000.0,2026-01-09
+66,1,eletronicos,1,1000.0,2026-01-09
+67,1,eletronico,1,1000.0,2026-01-09
+69,tv,eletronico,1,2000.0,2026-01-09
