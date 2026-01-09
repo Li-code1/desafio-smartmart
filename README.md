@@ -6,7 +6,7 @@ O **SmartMart Pro** é uma plataforma robusta para monitoramento de vendas e an�
 
 * **Dashboard Duplo:** * **Gráfico de Barras:** Visualização cronológica do lucro (Lucro vs. Data).
 * **Gráfico de Pizza:** Distribuição percentual de lucro por categoria de produto.
-=======
+  
 # 🛒 SmartMart Pro - Dashboard de Vendas
 
 O **SmartMart Pro** é uma solução Full Stack desenvolvida para gestão inteligente de inventário e análise de vendas. O sistema permite o controle total de produtos por categorias, visualização de lucros e importação massiva de dados via CSV.
@@ -178,7 +178,7 @@ Para importar dados em massa, utilize um arquivo `.csv` com a seguinte estrutura
 
 ---
 
-**Desenvolvido por [Liliane Lima] - 2026**
+**Desenvolvido por Liliane de Lima Santos- 2026**
 
 ---
 
