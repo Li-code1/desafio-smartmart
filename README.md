@@ -177,7 +177,13 @@ Para importar dados em massa, utilize um arquivo `.csv` com a seguinte estrutura
 4. **Upload:** Use o botão "Importar CSV" com o modelo de exemplo acima para ver o processamento em massa.
 
 ---
+## 🎥 Demonstração do Sistema
 
+Confira no vídeo abaixo as funcionalidades de **Inserção**, **Edição** com preenchimento automático, **Exclusão** com alerta de confirmação e **Filtros** em tempo real:
+
+https://drive.google.com/file/d/19wNRsY1oGGSxFcqjQPVsw5kI16BupTla/view?usp=drive_link
+
+---
 **Desenvolvido por Liliane de Lima Santos- 2026**
 
 ---
