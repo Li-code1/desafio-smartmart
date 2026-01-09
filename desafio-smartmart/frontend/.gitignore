@@ -1,0 +1,21 @@
+# Node & React (Frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/npm-debug.log*
+
+# Python (Backend)
+backend/__pycache__/
+backend/*.py[cod]
+backend/venv/
+backend/.venv/
+
+# Logs e Editor
+*.log
+.vscode/
+.idea/
+.DS_Store
+
+# Temporários do Sistema
+Thumbs.db
