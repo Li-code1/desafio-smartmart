@@ -10,7 +10,7 @@ O **SmartMart Pro** é uma plataforma robusta para monitoramento de vendas e an�
 # 🛒 SmartMart Pro - Dashboard de Vendas
 
 O **SmartMart Pro** é uma solução Full Stack desenvolvida para gestão inteligente de inventário e análise de vendas. O sistema permite o controle total de produtos por categorias, visualização de lucros e importação massiva de dados via CSV.
->>>>>>> 84f3cda18248796d34af7c2df72de780b9926206
+
 
 ## 🚀 Funcionalidades Principais
 
@@ -31,7 +31,7 @@ O **SmartMart Pro** é uma solução Full Stack desenvolvida para gestão inteli
 * **Persistência em CSV:** Armazenamento estruturado garantindo que os dados não sejam perdidos ao reiniciar o servidor.
 
 ---
->>>>>>> 84f3cda18248796d34af7c2df72de780b9926206
+
 
 ### **Frontend**
 
